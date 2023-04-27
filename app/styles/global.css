@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-family: Poppins, Arial;
+  line-height: 1;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+ul {
+  padding: 0;
+}
+
+svg:not([fill]) {
+  fill: currentColor;
+}
+
+.layout {
+  display: grid;
+  height: 100vh;
+}
+

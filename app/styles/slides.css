@@ -1,0 +1,28 @@
+.slides .slide {
+  background: #000;
+}
+
+.slides .slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slides .slide.svg {
+  display: flex;
+}
+
+.slides .slide.svg img[src$='.svg'] {
+  margin: auto;
+  object-fit: contain;
+  min-width: 100vw;
+  display: block;
+}
+
+.slides .slide.svg img[src$='.png'] {
+  margin: auto;
+  object-fit: contain;
+  display: block;
+}

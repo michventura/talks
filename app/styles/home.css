@@ -1,0 +1,35 @@
+/* Home */
+.home {
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+  padding: 1em;
+}
+
+.home > * {
+  padding-inline: 1ch;
+}
+
+.home header {
+  padding-block-start: 4em;
+}
+
+.home ul {
+  padding-block-start: 2em;
+  padding-inline-start: 2ch;
+}
+
+.home li {
+  padding-block: 1em;
+}
+
+.home ul a {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.home ul a:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
